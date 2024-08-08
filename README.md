@@ -1,7 +1,7 @@
 # CertificateApp
 
 
-## Open user-routes.js file, copy below code and paste in router.post method (Within try )
+## Open user-routes.js file, copy below code and paste in router.post method (inside try)
 
 ```
 const { certificateID, courseName, candidateName, grade, date } = req.body;
