@@ -5,7 +5,7 @@ Open user-routes.js file, copy below code and paste in router.post method
 
 ``
 const { certificateID, courseName, candidateName, grade, date } = req.body;
-        
+    
         console.log(certificateID);
         if (certDetails.has(certificateID)) {
             res.status(201).json({ message: `${certificateID} already exist` })
