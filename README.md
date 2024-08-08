@@ -1,7 +1,7 @@
 # CertificateApp
 
 
-## Open user-routes.js file, copy below code and paste in router.post method
+## Open user-routes.js file, copy below code and paste in router.post method (Within try )
 
 ```
 const { certificateID, courseName, candidateName, grade, date } = req.body;
@@ -17,7 +17,7 @@ const { certificateID, courseName, candidateName, grade, date } = req.body;
 ```
 
 
-## Copy below code and paste in router.get method
+## Copy below code and paste in second router.get method
 
 ```
 const id1 = req.params.id;
@@ -30,4 +30,13 @@ const id1 = req.params.id;
     else {
         res.status(404).json({ message: 'details not found' });
     }
+```
+
+## Open a terminal within the Backend folder, do the following
+
+```
+npm install
+
+node index.js
+
 ```
