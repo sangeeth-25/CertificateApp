@@ -16,6 +16,8 @@ const { certificateID, courseName, candidateName, grade, date } = req.body;
             res.status(201).json({ message: 'Certificate details saved' })
         }
 ``
+
+
 Copy below code and paste in router.get method
 
 ``
