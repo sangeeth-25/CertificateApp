@@ -18,7 +18,7 @@ ssh-add ~/.ssh/id_ed25519
 
 cat ~/.ssh/id_ed25519.pub
 ```
-**Copy from ssh to the last don’t include the tag.** 
+**Copy ssh key (exclude the tag)** 
 
 Now go to the settings and select ssh and gpg keys and paste this key.
 
