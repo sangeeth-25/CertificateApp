@@ -1,5 +1,29 @@
 # CertificateApp
 
+## Git Commands
+
+```
+git config --global user.name ""//Enter your Github username here
+git config --global user.email ""//Enter your Github email ID
+```
+## SSH Key setting
+
+```
+ssh-keygen -t ed25519 -C "recognizable tag" //Replace the recognizable tag with whatever you like
+```
+```
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519
+
+cat ~/.ssh/id_ed25519.pub
+```
+**Copy from ssh to the last don’t include the tag.** 
+
+Now go to the settings and select ssh and gpg keys and paste this key.
+
+Now if you clone using **ssh**. It will automatically be cloned to your local sytem.
+
 
 ## Open user-routes.js file, copy below code and paste in router.post method (inside try)
 
