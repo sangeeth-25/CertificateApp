@@ -1,5 +1,4 @@
 import { Router } from 'express';
-
 var router = Router();
 const certDetails = new Map();
 
